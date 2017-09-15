@@ -15,7 +15,16 @@ This package provides a CLI for adding [Storybook](https://github.com/storybooks
 
 ![Screenshot](docs/getstorybook.png)
 
-First install this CLI globally.
+The quickest way to add Storybook to your project is to run this package via [npx](https://www.npmjs.com/package/npx):
+
+```sh
+cd your-project-folder
+npx storybook
+```
+
+That's all you've to do.
+
+If you don't use npx install this CLI globally.
 
 ```sh
 npm i -g storybook
@@ -27,7 +36,21 @@ Then go to your project's folder and run:
 storybook
 ```
 
-That's all you've to do.
+* * *
+
+After that run Storybook by
+
+```sh
+npm run storybook
+```
+
+or
+
+```sh
+yarn storybook
+```
+
+For more information visit: [storybook.js.org](https://storybook.js.org)
 
 * * *
 
@@ -51,8 +74,6 @@ It also supports flow files. By default, [jscodeshift](https://github.com/facebo
 ```sh
 storybook --parser flow
 ```
-
-For more information visit: [storybook.js.org](https://storybook.js.org)
 
 ## Credits
 
